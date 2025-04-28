@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+    <body>
+        <!-- любые формы которые заполняются -> прописываются в тэге <form> -->
+        <form action="" method="post">
+            <!-- form указывает с каким объектом работает label -->
+            <label for="user_name">Введите логин</label>
+            <!-- через id можно обращаться к опр элементу и сделать стиль через css-->
+                <input type="text"
+                   placeholder="MadiAkh"
+                   maxlength="5"
+                   name="user_name"
+                   id="user_name"
+            >
+            <!-- br разделение на разные поля -->
+            <br><br>
+            <label for="pass_name">Введите пароль</label>
+
+                <input type="password"
+                   maxlength="15"
+                   id="pass_name"
+                >
+            <br><br>
+            <label for="email_addres">Введите email</label>
+
+                <input type="email"
+                   maxlength="30"
+                   id="email_addres"
+                >
+            <br><br>
+            <label for="url_name">Введите сайт</label>
+
+                <input type="url"
+                   maxlength="50"
+                   id="url_name"
+                >
+            <input type="color"
+                ><br><br>
+            <input type="datetime-local"
+                ><br><br>
+            <label for="checkbox_succes">Я не робот</label>
+            <input type="checkbox"
+                   id="checkbox_succes"
+            ><br><br>
+
+            <input type="radio" name="state">
+            <input type="radio" name="state"><br><br>
+            <input type="file" ><br><br>
+            <input type="week" ><br><br>
+            <input type="image" ><br><br>
+            <input type="number" ><br><br>
+            <input type="reset" value="Очистить"><br><br>
+            <input type="search" ><br><br>
+            <input type="tel" placeholder="+7 777 123 12 13" ><br><br>
+            <input type="tel" value="+7 7" ><br><br>
+            <input type="date" ><br><br>
+            <input type="button" ><br><br>
+            <input type="month" ><br><br>
+            <input type="range" ><br><br>
+            <input type="submit" value="Отправить" name="" id="" title=""><br><br>
+
+        </form>
+    </body>
+</html>
