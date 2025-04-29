@@ -1,0 +1,24 @@
+/* Можно прописать стиль для определенного селектора по типу <body>,
+но также можно создать класс определенному селектору <p class = "main-text"> <- вот так */
+
+body {
+    color: red;
+
+}
+
+.main-text {
+    color: blue
+}
+
+.that-one {
+    color: green
+}
+
+#text-in-p {
+    color: purple;
+}
+
+/* только к тегу div который в b */
+div p b, div i {
+    color: green
+}
